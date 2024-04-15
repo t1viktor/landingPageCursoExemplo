@@ -11,6 +11,12 @@ header{
     background-color: var(--60);
     justify-content: space-between;
     border-bottom: 0.1rem solid #57618859;
+   
+}
+
+header img{
+    height: auto;
+    width: 15%;
 }
 
 header div{
@@ -21,8 +27,8 @@ header div{
 header ul{
     list-style: none;
     display: flex;
-    padding: 4.0rem;
-    gap: 2.0rem;
+    padding: 4.0rem 2.0rem;
+    gap: 1.0rem;
 }
 
 header a{
@@ -37,6 +43,7 @@ header a{
 header a:hover{
     color: var(--hover);
 }
+
 
 main{
     align-items: center;
@@ -212,6 +219,11 @@ footer a:hover{
         --letra:#dadada;
         font-size: 7px;
     
+    }
+
+    .header-nav{
+        margin-left: -120px;
+        
     }
 
     .sec2 img{
